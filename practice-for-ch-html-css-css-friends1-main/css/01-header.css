@@ -1,1 +1,57 @@
 /* PHASE 1: Header */
+#header{
+    border: 1px solid black;
+    background-color: red;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin:0px;
+}
+
+.header-button{
+    background-color: red;
+    color: white;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+
+}
+
+.header-button:hover{
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    color: white;
+}
+
+li{
+    display: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+li:hover{
+    background-color: black;
+}
+
+
+
+.badge{
+    background-color: aqua;
+    border-radius: 90px;
+    padding: 5px;
+    
+}
+
