@@ -2,6 +2,9 @@
 
 .main-nav {
   border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .left-nav > ul,
@@ -30,7 +33,9 @@
 .right-nav  {
   > ul {
     > li {
-      
+      display: flex;
+      flex-direction: row;
+      padding-top: 10px;
     }
 
     > li:last-of-type {

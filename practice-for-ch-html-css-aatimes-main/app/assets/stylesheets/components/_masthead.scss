@@ -34,6 +34,8 @@
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 30px; 
 }
 
 .masthead-links {
@@ -42,10 +44,11 @@
 	font-size: 11px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-
+	padding: 5px;
 	li {
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
+		list-style: none;
 	}
 
 	button {
