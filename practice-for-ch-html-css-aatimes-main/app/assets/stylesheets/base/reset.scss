@@ -23,9 +23,9 @@ ol, ul {
 }
 
 img {
-  // display:
-  // width:
-  // height:
+  display: block;
+  width: inherit;
+  height: auto;
 }
 
 input[type="password"],
@@ -45,7 +45,7 @@ button {
 
 button,
 input[type="submit"] {
-  // cursor:
+  cursor: pointer;
 }
 
 /* Clearfix */

@@ -1,24 +1,29 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  border-bottom: 1px solid grey;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  flex-direction: row;
 }
 
 .left-nav {
 
   > ul {
     > li {
-      
+      // border: 1px solid black;
+      display: inline;
+      padding: 10px;
     }
   }
 
   span {
-    
+    // display: inline-block;
+    // border: 1px solid black;
+    padding: 10px;
   }
 }
 
@@ -40,7 +45,7 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  
+  background-color: grey;
 }
 
     
